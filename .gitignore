@@ -1,0 +1,37 @@
+# 🐍 Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# 🚫 Virtual environment folders
+venv/
+env/
+
+# ⚙️ IDE/editor settings
+.vscode/
+.idea/
+
+# 🍎 macOS system files
+.DS_Store
+
+# 📦 Package and log files
+*.log
+*.sqlite3
+*.db
+
+# 🔐 Secrets or environment variables
+.env
+.env.*
+
+# 🔄 OS-specific swap/temporary files
+*~
+*.swp
+*.tmp
+
+# 🚫 Node modules (if accidentally added)
+node_modules/
+
+# 📦 PyInstaller build artifacts
+build/
+dist/
+*.spec
