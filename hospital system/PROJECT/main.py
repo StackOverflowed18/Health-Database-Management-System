@@ -39,7 +39,8 @@ def load_user(user_id):
 
 
 # app.config['SQLALCHEMY_DATABASE_URL']='mysql://username:password@localhost/databas_table_name'
-app.config['SQLALCHEMY_DATABASE_URI']='mysql://root:@localhost/hms'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:Anshimawork@#210100@127.0.0.1/hdms'
+# change this to your database name
 db=SQLAlchemy(app)
 
 
